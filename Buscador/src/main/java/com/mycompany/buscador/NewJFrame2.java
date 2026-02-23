@@ -525,13 +525,12 @@ public class NewJFrame2 extends javax.swing.JFrame {
             } else {
                 file.createNewFile();
                 FileWriter a = new FileWriter(file);
-                System.out.println("Niger");
+               
                 a.write(jTextArea2.getText());
                 a.close();
             }
 
         } catch (Exception e) {
-            System.out.println("Nigger man");
         } finally {
             JOptionPane.showMessageDialog(jFrame1, "Guardado en Escritorio");
         }
@@ -561,7 +560,7 @@ public class NewJFrame2 extends javax.swing.JFrame {
         try {
             Desktop.getDesktop().open(file);
         } catch (Exception e) {
-            System.out.println("NIgger man");
+           
         }
     }
 
